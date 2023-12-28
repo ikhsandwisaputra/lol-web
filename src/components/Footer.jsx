@@ -1,4 +1,4 @@
-import logolol from '../assets/images/logo-lol.png';
+import logolol from '../assets/img/logo-lol.png';
 export default function Footer() {
     return (
         <footer className="bg-gray-900 text-white p-8">
