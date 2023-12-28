@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logolol from '../assets/img/lol.png';
+import logolol from '../assets/img/logo-lol.png';
 const Navbar = () => {
   const [scrollY, setScrollY] = useState(0);
   const [isGlassEffect, setIsGlassEffect] = useState(false);
