@@ -1,3 +1,4 @@
+import logolol from '../assets/images/lol.png';
 export default function Footer() {
     return (
         <footer className="bg-gray-900 text-white p-8">
@@ -5,7 +6,7 @@ export default function Footer() {
         <div className="flex items-center flex-col md:flex-row justify-center space-x-4 mb-4 md:mb-0">
           {/* Logo League of Legends */}
           <img
-            src="/src/assets/img/logo-lol.png"
+            src={logolol}
             alt="League of Legends Logo"
             className="h-10"
           />

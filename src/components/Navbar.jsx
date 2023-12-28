@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import logolol from '../assets/images/lol.png';
 const Navbar = () => {
   const [scrollY, setScrollY] = useState(0);
   const [isGlassEffect, setIsGlassEffect] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <img
-          src="/src/assets/img/logo-lol.png"
+          src={logolol}
           alt="League of Legends Logo"
           className="h-10"
         />
