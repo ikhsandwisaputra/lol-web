@@ -1,6 +1,8 @@
+import item1 from '../assets/img/items-1.png';
+import item2 from '../assets/img/items-2.png';
 export default function Section3() {
     return (
-        <section className="pt-5 bg-[url(src/assets/img/place-1.jpg)] bg-cover bg-center w-full md:h-[350px]  h-full relative">
+        <section className="pt-5 bg-[url(./assets/img/place-1.jpg)] bg-cover bg-center w-full md:h-[350px]  h-full relative">
              <div
         className='absolute inset-0'
         style={{
@@ -22,11 +24,11 @@ export default function Section3() {
             <div className="">
                 <div className="md:flex-row flex flex-col lg:w-1/2 w-full md:gap-5 gap-0  bg-blue-900 mx-auto items-center py-2 px-4 text-center">
                     <div className="md:w-[300px] w-[200px] h-[200px] md:h-[100px] ">
-                        <img src="/src/assets/img/items-1.png" alt="" />
+                        <img src={item1} alt="" />
                 </div>
                 <h1 className="font-poppins text-white md:my-0 my-10">League of Legends (LoL) menyajikan sejumlah item yang strategis dan beragam, memberikan kedalaman taktis yang mendalam dalam setiap pertandingan.</h1>
                     <div className="md:w-[400px] w-[200px] h-[200px] md:h-[100px] ">
-                        <img src="/src/assets/img/items-2.png" alt="" className="w-full h-full object-cover" />
+                        <img src={item2} alt="" className="w-full h-full object-cover" />
                     </div>
                     </div>
             </div>

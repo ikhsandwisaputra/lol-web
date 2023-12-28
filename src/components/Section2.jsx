@@ -1,4 +1,7 @@
+import jinx from '../assets/img/jinx.png';
+import ahri from '../assets/img/ahri.png';
 export default function Section2() {
+  
   return (
     <section className='w-full bg-[url(./assets/img/5.jpg)] bg-cover bg-no-repeat bg-center md:h-[350px] h-full  relative'>
       <div
@@ -10,7 +13,7 @@ export default function Section2() {
       ></div>
       <div className='grid md:grid-cols-3 grid-cols-1 md:gap-5 gap-10 w-full transform -translate-y-32  relative justify-items-center z-[9]'>
         <img
-          src='/src/assets/img/jinx.png'
+          src={jinx}
           alt=''
           className='md:w-[450px] md:h-[600px] w-full h-full object-cover  mx-auto '
         />
@@ -37,7 +40,7 @@ export default function Section2() {
           </h1>
         </div>
         <img
-          src='/src/assets/img/ahri.png'
+          src={ahri}
           alt=''
           className='md:w-[450px] md:h-[400px] w-[full] h-full object-cover'
         />

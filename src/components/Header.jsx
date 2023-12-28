@@ -1,8 +1,12 @@
 import { useState, useEffect } from 'react';
+import gambar1 from '../assets/img/1.jpg';
+import gambar2 from '../assets/img/2.jpg';
+import gambar3 from '../assets/img/3.jpg';
+import gambar4 from '../assets/img/4.jpg';
 
 export default function Header() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = ['/src/assets/img/1.jpg', '/src/assets/img/2.jpg', '/src/assets/img/3.jpg', '/src/assets/img/4.jpg']; // Ganti dengan daftar gambar yang ingin digunakan
+  const images = [gambar1, gambar2, gambar3, gambar4]; // Ganti dengan daftar gambar yang ingin digunakan
 
   useEffect(() => {
     const interval = setInterval(() => {
